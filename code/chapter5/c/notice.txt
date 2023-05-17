@@ -1,0 +1,5 @@
+notice:
+the command: ld -s hello.o -o hello
+should transformed into
+the command: ld -m elf_i386 -s -o hello hello.o
+

@@ -1,0 +1,4 @@
+change the gcc and ld command as this:
+gcc -m32 -c start.c start.o
+ld -m elf_i386 -s -o kernel.bin kernel.o string.o start.o kliba.o
+

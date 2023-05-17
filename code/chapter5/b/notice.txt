@@ -1,0 +1,3 @@
+change the gcc and ld command as this:
+gcc -m32 -c bar.c -o bar.o
+ld -m elf_i386 -s -o foobar foo.o bar.o
